@@ -21,7 +21,7 @@ import {
   Role,
   ServicePrincipal,
 } from "@aws-cdk/aws-iam";
-import { ResourceConstants } from "../memorydb-transformer";
+import { ResourceConstants } from "../rankable-transformer";
 import * as path from "path";
 import assert from "assert";
 

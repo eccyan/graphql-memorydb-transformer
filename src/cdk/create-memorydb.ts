@@ -3,7 +3,7 @@ import { IRole, Role, ServicePrincipal } from "@aws-cdk/aws-iam";
 import { CfnParameter, Construct, Fn } from "@aws-cdk/core";
 import { Construct as Construct_1_127 } from "aws-cdk-core-1.127";
 import { ResourceConstants as CommonResourceConstants } from "graphql-transformer-common";
-import { ResourceConstants } from "../memorydb-transformer";
+import { ResourceConstants } from "../rankable-transformer";
 
 export const createMemoryDb = (
   stack: Construct,

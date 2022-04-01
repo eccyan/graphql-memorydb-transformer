@@ -1,7 +1,7 @@
 import { AppSync, Fn, StringParameter, Refs, } from "cloudform-types";
 import { MemoryDb } from "./cloudform-types/memoryDb";
 import { ResourceConstants as CommonResourceConstants } from "graphql-transformer-common";
-import { ResourceConstants } from "./memorydb-transformer";
+import { ResourceConstants } from "./rankable-transformer";
 import Output from "cloudform-types/types/output";
 import Template from "cloudform-types/types/template";
 
